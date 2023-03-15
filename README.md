@@ -1,2 +1,23 @@
 # CS306_Group22
-CS306 Group 22 GitHub Repository
+
+## Authors
+- Batuhan Isildak
+- Eren Altin
+- Anil Arslan
+- Dedis Atakan Oz
+- Ahmet Alperen Gungor
+## Project Description
+This database has been designed to manage and store data related to different aspects of
+countries and their environmental aspects, including population statistics, pollution, renewable energy
+sources, and causes of death. Main aim of this project is to promote awareness on some of the current
+global disasters by creating a database which has the capability of holding data about countries' death
+causes and pollution while classifying population into different generations. In addition, usage of
+renewable energy sources is also stored, which can give a deeper insight on how these energy sources
+can play a role in countries' mortality rates & causes. 
+
+## Repository Description
+- We've parsed the datas that we've found, and uploaded them at datacsv/ folder.
+- Also report is available in this repository.
+
+## Repository Logs
+- 15.03.2023 - Project Step 1
