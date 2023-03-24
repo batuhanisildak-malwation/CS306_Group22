@@ -18,6 +18,7 @@ can play a role in countries' mortality rates & causes.
 ## Repository Description
 - We've parsed the datas that we've found, and uploaded them at datacsv/ folder.
 - Also report is available in this repository.
+- You can create the database by looking into create_db.sql file. 
 
 ## Repository Logs
 ### 15.03.2023
