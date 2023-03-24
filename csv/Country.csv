@@ -1,0 +1,204 @@
+﻿1,1,Afghanistan,AFG
+2,2,Albania,ALB
+3,5,Algeria,DZA
+4,6,American Samoa,ASM
+5,2,Andorra,AND
+6,5,Angola,AGO
+7,4,Antigua and Barbuda,ATG
+8,3,Argentina,ARG
+9,1,Armenia,ARM
+10,6,Australia,AUS
+11,2,Austria,AUT
+12,1,Azerbaijan,AZE
+13,1,Bahamas,BHS
+14,1,Bahrain,BHR
+15,1,Bangladesh,BGD
+16,4,Barbados,BRB
+17,2,Belarus,BLR
+18,2,Belgium,BEL
+19,4,Belize,BLZ
+20,5,Benin,BEN
+21,4,Bermuda,BMU
+22,1,Bhutan,BTN
+23,3,Bolivia,BOL
+24,2,Bosnia and Herzegovina,BIH
+25,5,Botswana,BWA
+26,3,Brazil,BRA
+27,5,Brunei,BRN
+28,2,Bulgaria,BGR
+29,5,Burkina Faso,BFA
+30,5,Burundi,BDI
+31,1,Cambodia,KHM
+32,5,Cameroon,CMR
+33,4,Canada,CAN
+34,5,Cape Verde,CPV
+35,5,Central African Republic,CAF
+36,5,Chad,TCD
+37,3,Chile,CHL
+38,1,China,CHN
+39,3,Colombia,COL
+40,5,Comoros,COM
+41,5,Congo,COG
+42,6,Cook Islands,COK
+43,4,Costa Rica,CRI
+44,5,Cote d'Ivoire,CIV
+45,2,Croatia,HRV
+46,4,Cuba,CUB
+47,2,Cyprus,CYP
+48,2,Czechia,CZE
+49,5,Democratic Republic of Congo,COD
+50,2,Denmark,DNK
+51,5,Djibouti,DJI
+52,4,Dominica,DMA
+53,4,Dominican Republic,DOM
+54,3,Ecuador,ECU
+55,5,Egypt,EGY
+56,4,El Salvador,SLV
+57,5,Equatorial Guinea,GNQ
+58,5,Eritrea,ERI
+59,2,Estonia,EST
+60,5,Eswatini,SWZ
+61,5,Ethiopia,ETH
+62,6,Fiji,FJI
+63,2,Finland,FIN
+64,2,France,FRA
+65,5,Gabon,GAB
+66,5,Gambia,GMB
+67,1,Georgia,GEO
+68,2,Germany,DEU
+69,5,Ghana,GHA
+70,2,Greece,GRC
+71,2,Greenland,GRL
+72,3,Grenada,GRD
+73,3,Guam,GUM
+74,3,Guatemala,GTM
+75,5,Guinea,GIN
+76,5,Guinea-Bissau,GNB
+77,3,Guyana,GUY
+78,4,Haiti,HTI
+79,4,Honduras,HND
+80,2,Hungary,HUN
+81,2,Iceland,ISL
+82,1,India,IND
+83,1,Indonesia,IDN
+84,1,Iran,IRN
+85,1,Iraq,IRQ
+86,2,Ireland,IRL
+87,1,Israel,ISR
+88,2,Italy,ITA
+89,5,Jamaica,JAM
+90,1,Japan,JPN
+91,1,Jordan,JOR
+92,1,Kazakhstan,KAZ
+93,5,Kenya,KEN
+94,5,Kiribati,KIR
+95,1,Kuwait,KWT
+96,1,Kyrgyzstan,KGZ
+97,1,Laos,LAO
+98,2,Latvia,LVA
+99,1,Lebanon,LBN
+100,5,Lesotho,LSO
+101,5,Liberia,LBR
+102,5,Libya,LBY
+103,2,Lithuania,LTU
+104,2,Luxembourg,LUX
+105,5,Madagascar,MDG
+106,6,Malawi,MWI
+107,1,Malaysia,MYS
+108,6,Maldives,MDV
+109,5,Mali,MLI
+110,2,Malta,MLT
+111,6,Marshall Islands,MHL
+112,6,Mauritania,MRT
+113,6,Mauritius,MUS
+114,4,Mexico,MEX
+115,6,Micronesia ,FSM
+116,2,Moldova,MDA
+117,2,Monaco,MCO
+118,1,Mongolia,MNG
+119,2,Montenegro,MNE
+120,1,Morocco,MAR
+121,5,Mozambique,MOZ
+122,1,Myanmar,MMR
+123,5,Namibia,NAM
+124,6,Nauru,NRU
+125,1,Nepal,NPL
+126,2,Netherlands,NLD
+127,6,New Zealand,NZL
+128,5,Nicaragua,NIC
+129,5,Niger,NER
+130,5,Nigeria,NGA
+131,6,Niue,NIU
+132,1,North Korea,PRK
+133,2,North Macedonia,MKD
+134,6,Northern Mariana Islands,MNP
+135,2,Norway,NOR
+136,1,Oman,OMN
+137,1,Pakistan,PAK
+138,6,Palau,PLW
+139,1,Palestine,PSE
+140,4,Panama,PAN
+141,6,Papua New Guinea,PNG
+142,3,Paraguay,PRY
+143,3,Peru,PER
+144,1,Philippines,PHL
+145,2,Poland,POL
+146,2,Portugal,PRT
+147,4,Puerto Rico,PRI
+148,1,Qatar,QAT
+149,2,Romania,ROU
+150,2,Russia,RUS
+151,5,Rwanda,RWA
+152,4,Saint Kitts and Nevis,KNA
+153,4,Saint Lucia,LCA
+154,4,Saint Vincent and the Grenadines,VCT
+155,6,Samoa,WSM
+156,2,San Marino,SMR
+157,4,Sao Tome and Principe,STP
+158,1,Saudi Arabia,SAU
+159,5,Senegal,SEN
+160,2,Serbia,SRB
+161,1,Seychelles,SYC
+162,1,Sierra Leone,SLE
+163,1,Singapore,SGP
+164,2,Slovakia,SVK
+165,2,Slovenia,SVN
+166,6,Solomon Islands,SLB
+167,5,Somalia,SOM
+168,5,South Africa,ZAF
+169,1,South Korea,KOR
+170,5,South Sudan,SSD
+171,2,Spain,ESP
+172,1,Sri Lanka,LKA
+173,1,Sudan,SDN
+174,5,Suriname,SUR
+175,2,Sweden,SWE
+176,2,Switzerland,CHE
+177,5,Syria,SYR
+178,1,Taiwan,TWN
+179,1,Tajikistan,TJK
+180,5,Tanzania,TZA
+181,1,Thailand,THA
+182,5,Timor,TLS
+183,5,Togo,TGO
+184,6,Tokelau,TKL
+185,5,Tonga,TON
+186,4,Trinidad and Tobago,TTO
+187,5,Tunisia,TUN
+188,2,Turkey,TUR
+189,1,Turkmenistan,TKM
+190,6,Tuvalu,TUV
+191,5,Uganda,UGA
+192,2,Ukraine,UKR
+193,1,United Arab Emirates,ARE
+194,2,United Kingdom,GBR
+195,4,United States,USA
+196,6,United States Virgin Islands,VIR
+197,3,Uruguay,URY
+198,1,Uzbekistan,UZB
+199,6,Vanuatu,VUT
+200,3,Venezuela,VEN
+201,1,Vietnam,VNM
+202,1,Yemen,YEM
+203,5,Zambia,ZMB
+204,5,Zimbabwe,ZWE
