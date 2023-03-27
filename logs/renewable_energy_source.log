@@ -1,0 +1,15 @@
+test-db> use `test-db`
+[2023-03-27 23:27:45] completed in 9 ms
+test-db> create table RenewableEnergySource (
+             id int auto_increment primary key,
+             name varchar(255) not null
+         )
+[2023-03-27 23:27:56] completed in 30 ms
+test-db> INSERT INTO `test-db`.RenewableEnergySource (id, name) VALUES (1, 'Geo Biomass Other - TWh')
+[2023-03-27 23:28:02] 1 row affected in 12 ms
+test-db> INSERT INTO `test-db`.RenewableEnergySource (id, name) VALUES (2, 'Solar Generation - TWh')
+[2023-03-27 23:28:02] 1 row affected in 11 ms
+test-db> INSERT INTO `test-db`.RenewableEnergySource (id, name) VALUES (3, 'Wind Generation - TWh')
+[2023-03-27 23:28:02] 1 row affected in 8 ms
+test-db> INSERT INTO `test-db`.RenewableEnergySource (id, name) VALUES (4, 'Hydro Generation - TWh')
+[2023-03-27 23:28:02] 1 row affected in 7 ms

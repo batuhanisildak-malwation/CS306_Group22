@@ -1,0 +1,64 @@
+[2023-03-27 23:56:20] Connected
+test-db> use `test-db`
+[2023-03-27 23:56:20] completed in 4 ms
+test-db> create table DeathCause (
+             id int auto_increment primary key,
+             name varchar(255) not null
+         )
+[2023-03-27 23:56:20] completed in 23 ms
+test-db> INSERT INTO `test-db`.DeathCause (id, name) VALUES (1, 'Outdoor air pollution')
+[2023-03-27 23:56:30] 1 row affected in 13 ms
+test-db> INSERT INTO `test-db`.DeathCause (id, name) VALUES (2, 'High systolic blood pressure')
+[2023-03-27 23:56:30] 1 row affected in 10 ms
+test-db> INSERT INTO `test-db`.DeathCause (id, name) VALUES (3, 'Diet high in sodium')
+[2023-03-27 23:56:30] 1 row affected in 6 ms
+test-db> INSERT INTO `test-db`.DeathCause (id, name) VALUES (4, 'Diet low in whole grains')
+[2023-03-27 23:56:30] 1 row affected in 8 ms
+test-db> INSERT INTO `test-db`.DeathCause (id, name) VALUES (5, 'Alcohol use')
+[2023-03-27 23:56:30] 1 row affected in 8 ms
+test-db> INSERT INTO `test-db`.DeathCause (id, name) VALUES (6, 'Diet low in fruits')
+[2023-03-27 23:56:31] 1 row affected in 6 ms
+test-db> INSERT INTO `test-db`.DeathCause (id, name) VALUES (7, 'Unsafe water source')
+[2023-03-27 23:56:31] 1 row affected in 6 ms
+test-db> INSERT INTO `test-db`.DeathCause (id, name) VALUES (8, 'Secondhand smoke')
+[2023-03-27 23:56:31] 1 row affected in 7 ms
+test-db> INSERT INTO `test-db`.DeathCause (id, name) VALUES (9, 'Low birth weight')
+[2023-03-27 23:56:31] 1 row affected in 7 ms
+test-db> INSERT INTO `test-db`.DeathCause (id, name) VALUES (10, 'Child wasting')
+[2023-03-27 23:56:31] 1 row affected in 10 ms
+test-db> INSERT INTO `test-db`.DeathCause (id, name) VALUES (11, 'Unsafe sex')
+[2023-03-27 23:56:31] 1 row affected in 6 ms
+test-db> INSERT INTO `test-db`.DeathCause (id, name) VALUES (12, 'Diet low in nuts and seeds')
+[2023-03-27 23:56:31] 1 row affected in 6 ms
+test-db> INSERT INTO `test-db`.DeathCause (id, name) VALUES (13, 'Household air pollution from solid fuels')
+[2023-03-27 23:56:31] 1 row affected in 7 ms
+test-db> INSERT INTO `test-db`.DeathCause (id, name) VALUES (14, 'Diet low in vegetables')
+[2023-03-27 23:56:31] 1 row affected in 7 ms
+test-db> INSERT INTO `test-db`.DeathCause (id, name) VALUES (15, 'Low physical activity')
+[2023-03-27 23:56:31] 1 row affected in 7 ms
+test-db> INSERT INTO `test-db`.DeathCause (id, name) VALUES (16, 'Smoking')
+[2023-03-27 23:56:31] 1 row affected in 7 ms
+test-db> INSERT INTO `test-db`.DeathCause (id, name) VALUES (17, 'High fasting plasma glucose')
+[2023-03-27 23:56:31] 1 row affected in 7 ms
+test-db> INSERT INTO `test-db`.DeathCause (id, name) VALUES (18, 'Air pollution')
+[2023-03-27 23:56:31] 1 row affected in 6 ms
+test-db> INSERT INTO `test-db`.DeathCause (id, name) VALUES (19, 'High body-mass index')
+[2023-03-27 23:56:31] 1 row affected in 7 ms
+test-db> INSERT INTO `test-db`.DeathCause (id, name) VALUES (20, 'Unsafe sanitation')
+[2023-03-27 23:56:31] 1 row affected in 7 ms
+test-db> INSERT INTO `test-db`.DeathCause (id, name) VALUES (21, 'No access to handwashing facility')
+[2023-03-27 23:56:31] 1 row affected in 6 ms
+test-db> INSERT INTO `test-db`.DeathCause (id, name) VALUES (22, 'Drug use')
+[2023-03-27 23:56:31] 1 row affected in 4 ms
+test-db> INSERT INTO `test-db`.DeathCause (id, name) VALUES (23, 'Low bone mineral density')
+[2023-03-27 23:56:31] 1 row affected in 6 ms
+test-db> INSERT INTO `test-db`.DeathCause (id, name) VALUES (24, 'Vitamin A deficiency')
+[2023-03-27 23:56:31] 1 row affected in 6 ms
+test-db> INSERT INTO `test-db`.DeathCause (id, name) VALUES (25, 'Child stunting')
+[2023-03-27 23:56:31] 1 row affected in 8 ms
+test-db> INSERT INTO `test-db`.DeathCause (id, name) VALUES (26, 'Discontinued breastfeeding')
+[2023-03-27 23:56:31] 1 row affected in 8 ms
+test-db> INSERT INTO `test-db`.DeathCause (id, name) VALUES (27, 'Non-exclusive breastfeeding')
+[2023-03-27 23:56:31] 1 row affected in 6 ms
+test-db> INSERT INTO `test-db`.DeathCause (id, name) VALUES (28, 'Iron deficiency')
+[2023-03-27 23:56:31] 1 row affected in 7 ms

@@ -1,0 +1,12 @@
+test-db> INSERT INTO `test-db`.Continent (id, name, isoCode) VALUES (1, 'Asia', 'AS')
+[2023-03-27 23:13:46] 1 row affected in 15 ms
+test-db> INSERT INTO `test-db`.Continent (id, name, isoCode) VALUES (2, 'Europe', 'EU')
+[2023-03-27 23:13:46] 1 row affected in 13 ms
+test-db> INSERT INTO `test-db`.Continent (id, name, isoCode) VALUES (3, 'Latin America and the Caribbean', 'SA')
+[2023-03-27 23:13:46] 1 row affected in 11 ms
+test-db> INSERT INTO `test-db`.Continent (id, name, isoCode) VALUES (4, 'Northern America', 'NA')
+[2023-03-27 23:13:46] 1 row affected in 10 ms
+test-db> INSERT INTO `test-db`.Continent (id, name, isoCode) VALUES (5, 'Africa', 'AF')
+[2023-03-27 23:13:46] 1 row affected in 11 ms
+test-db> INSERT INTO `test-db`.Continent (id, name, isoCode) VALUES (6, 'Oceania', 'OC')
+[2023-03-27 23:13:46] 1 row affected in 9 ms

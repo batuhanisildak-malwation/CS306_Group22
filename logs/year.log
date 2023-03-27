@@ -1,0 +1,152 @@
+[2023-03-27 23:27:08] Connected
+test-db> use `test-db`
+[2023-03-27 23:27:08] completed in 5 ms
+test-db> create table Year (
+             id int auto_increment primary key,
+             value int not null
+         )
+[2023-03-27 23:27:08] completed in 30 ms
+test-db> INSERT INTO `test-db`.Year (id, value) VALUES (1, 1950)
+[2023-03-27 23:27:16] 1 row affected in 19 ms
+test-db> INSERT INTO `test-db`.Year (id, value) VALUES (2, 1951)
+[2023-03-27 23:27:16] 1 row affected in 10 ms
+test-db> INSERT INTO `test-db`.Year (id, value) VALUES (3, 1952)
+[2023-03-27 23:27:16] 1 row affected in 6 ms
+test-db> INSERT INTO `test-db`.Year (id, value) VALUES (4, 1953)
+[2023-03-27 23:27:16] 1 row affected in 8 ms
+test-db> INSERT INTO `test-db`.Year (id, value) VALUES (5, 1954)
+[2023-03-27 23:27:16] 1 row affected in 7 ms
+test-db> INSERT INTO `test-db`.Year (id, value) VALUES (6, 1955)
+[2023-03-27 23:27:16] 1 row affected in 7 ms
+test-db> INSERT INTO `test-db`.Year (id, value) VALUES (7, 1956)
+[2023-03-27 23:27:16] 1 row affected in 8 ms
+test-db> INSERT INTO `test-db`.Year (id, value) VALUES (8, 1957)
+[2023-03-27 23:27:16] 1 row affected in 6 ms
+test-db> INSERT INTO `test-db`.Year (id, value) VALUES (9, 1958)
+[2023-03-27 23:27:16] 1 row affected in 8 ms
+test-db> INSERT INTO `test-db`.Year (id, value) VALUES (10, 1959)
+[2023-03-27 23:27:16] 1 row affected in 8 ms
+test-db> INSERT INTO `test-db`.Year (id, value) VALUES (11, 1960)
+[2023-03-27 23:27:16] 1 row affected in 8 ms
+test-db> INSERT INTO `test-db`.Year (id, value) VALUES (12, 1961)
+[2023-03-27 23:27:16] 1 row affected in 7 ms
+test-db> INSERT INTO `test-db`.Year (id, value) VALUES (13, 1962)
+[2023-03-27 23:27:16] 1 row affected in 6 ms
+test-db> INSERT INTO `test-db`.Year (id, value) VALUES (14, 1963)
+[2023-03-27 23:27:16] 1 row affected in 8 ms
+test-db> INSERT INTO `test-db`.Year (id, value) VALUES (15, 1964)
+[2023-03-27 23:27:16] 1 row affected in 7 ms
+test-db> INSERT INTO `test-db`.Year (id, value) VALUES (16, 1965)
+[2023-03-27 23:27:16] 1 row affected in 9 ms
+test-db> INSERT INTO `test-db`.Year (id, value) VALUES (17, 1966)
+[2023-03-27 23:27:16] 1 row affected in 10 ms
+test-db> INSERT INTO `test-db`.Year (id, value) VALUES (18, 1967)
+[2023-03-27 23:27:16] 1 row affected in 5 ms
+test-db> INSERT INTO `test-db`.Year (id, value) VALUES (19, 1968)
+[2023-03-27 23:27:16] 1 row affected in 12 ms
+test-db> INSERT INTO `test-db`.Year (id, value) VALUES (20, 1969)
+[2023-03-27 23:27:16] 1 row affected in 10 ms
+test-db> INSERT INTO `test-db`.Year (id, value) VALUES (21, 1970)
+[2023-03-27 23:27:16] 1 row affected in 12 ms
+test-db> INSERT INTO `test-db`.Year (id, value) VALUES (22, 1971)
+[2023-03-27 23:27:16] 1 row affected in 7 ms
+test-db> INSERT INTO `test-db`.Year (id, value) VALUES (23, 1972)
+[2023-03-27 23:27:16] 1 row affected in 11 ms
+test-db> INSERT INTO `test-db`.Year (id, value) VALUES (24, 1973)
+[2023-03-27 23:27:16] 1 row affected in 8 ms
+test-db> INSERT INTO `test-db`.Year (id, value) VALUES (25, 1974)
+[2023-03-27 23:27:16] 1 row affected in 10 ms
+test-db> INSERT INTO `test-db`.Year (id, value) VALUES (26, 1975)
+[2023-03-27 23:27:16] 1 row affected in 5 ms
+test-db> INSERT INTO `test-db`.Year (id, value) VALUES (27, 1976)
+[2023-03-27 23:27:16] 1 row affected in 6 ms
+test-db> INSERT INTO `test-db`.Year (id, value) VALUES (28, 1977)
+[2023-03-27 23:27:16] 1 row affected in 6 ms
+test-db> INSERT INTO `test-db`.Year (id, value) VALUES (29, 1978)
+[2023-03-27 23:27:16] 1 row affected in 8 ms
+test-db> INSERT INTO `test-db`.Year (id, value) VALUES (30, 1979)
+[2023-03-27 23:27:16] 1 row affected in 8 ms
+test-db> INSERT INTO `test-db`.Year (id, value) VALUES (31, 1980)
+[2023-03-27 23:27:16] 1 row affected in 7 ms
+test-db> INSERT INTO `test-db`.Year (id, value) VALUES (32, 1981)
+[2023-03-27 23:27:16] 1 row affected in 10 ms
+test-db> INSERT INTO `test-db`.Year (id, value) VALUES (33, 1982)
+[2023-03-27 23:27:16] 1 row affected in 7 ms
+test-db> INSERT INTO `test-db`.Year (id, value) VALUES (34, 1983)
+[2023-03-27 23:27:16] 1 row affected in 8 ms
+test-db> INSERT INTO `test-db`.Year (id, value) VALUES (35, 1984)
+[2023-03-27 23:27:16] 1 row affected in 12 ms
+test-db> INSERT INTO `test-db`.Year (id, value) VALUES (36, 1985)
+[2023-03-27 23:27:16] 1 row affected in 8 ms
+test-db> INSERT INTO `test-db`.Year (id, value) VALUES (37, 1986)
+[2023-03-27 23:27:16] 1 row affected in 8 ms
+test-db> INSERT INTO `test-db`.Year (id, value) VALUES (38, 1987)
+[2023-03-27 23:27:16] 1 row affected in 9 ms
+test-db> INSERT INTO `test-db`.Year (id, value) VALUES (39, 1988)
+[2023-03-27 23:27:17] 1 row affected in 5 ms
+test-db> INSERT INTO `test-db`.Year (id, value) VALUES (40, 1989)
+[2023-03-27 23:27:17] 1 row affected in 8 ms
+test-db> INSERT INTO `test-db`.Year (id, value) VALUES (41, 1990)
+[2023-03-27 23:27:17] 1 row affected in 9 ms
+test-db> INSERT INTO `test-db`.Year (id, value) VALUES (42, 1991)
+[2023-03-27 23:27:17] 1 row affected in 10 ms
+test-db> INSERT INTO `test-db`.Year (id, value) VALUES (43, 1992)
+[2023-03-27 23:27:17] 1 row affected in 22 ms
+test-db> INSERT INTO `test-db`.Year (id, value) VALUES (44, 1993)
+[2023-03-27 23:27:17] 1 row affected in 18 ms
+test-db> INSERT INTO `test-db`.Year (id, value) VALUES (45, 1994)
+[2023-03-27 23:27:17] 1 row affected in 12 ms
+test-db> INSERT INTO `test-db`.Year (id, value) VALUES (46, 1995)
+[2023-03-27 23:27:17] 1 row affected in 7 ms
+test-db> INSERT INTO `test-db`.Year (id, value) VALUES (47, 1996)
+[2023-03-27 23:27:17] 1 row affected in 11 ms
+test-db> INSERT INTO `test-db`.Year (id, value) VALUES (48, 1997)
+[2023-03-27 23:27:17] 1 row affected in 6 ms
+test-db> INSERT INTO `test-db`.Year (id, value) VALUES (49, 1998)
+[2023-03-27 23:27:17] 1 row affected in 8 ms
+test-db> INSERT INTO `test-db`.Year (id, value) VALUES (50, 1999)
+[2023-03-27 23:27:17] 1 row affected in 7 ms
+test-db> INSERT INTO `test-db`.Year (id, value) VALUES (51, 2000)
+[2023-03-27 23:27:17] 1 row affected in 9 ms
+test-db> INSERT INTO `test-db`.Year (id, value) VALUES (52, 2001)
+[2023-03-27 23:27:17] 1 row affected in 6 ms
+test-db> INSERT INTO `test-db`.Year (id, value) VALUES (53, 2002)
+[2023-03-27 23:27:17] 1 row affected in 7 ms
+test-db> INSERT INTO `test-db`.Year (id, value) VALUES (54, 2003)
+[2023-03-27 23:27:17] 1 row affected in 8 ms
+test-db> INSERT INTO `test-db`.Year (id, value) VALUES (55, 2004)
+[2023-03-27 23:27:17] 1 row affected in 6 ms
+test-db> INSERT INTO `test-db`.Year (id, value) VALUES (56, 2005)
+[2023-03-27 23:27:17] 1 row affected in 5 ms
+test-db> INSERT INTO `test-db`.Year (id, value) VALUES (57, 2006)
+[2023-03-27 23:27:17] 1 row affected in 6 ms
+test-db> INSERT INTO `test-db`.Year (id, value) VALUES (58, 2007)
+[2023-03-27 23:27:17] 1 row affected in 7 ms
+test-db> INSERT INTO `test-db`.Year (id, value) VALUES (59, 2008)
+[2023-03-27 23:27:17] 1 row affected in 5 ms
+test-db> INSERT INTO `test-db`.Year (id, value) VALUES (60, 2009)
+[2023-03-27 23:27:17] 1 row affected in 9 ms
+test-db> INSERT INTO `test-db`.Year (id, value) VALUES (61, 2010)
+[2023-03-27 23:27:17] 1 row affected in 9 ms
+test-db> INSERT INTO `test-db`.Year (id, value) VALUES (62, 2011)
+[2023-03-27 23:27:17] 1 row affected in 9 ms
+test-db> INSERT INTO `test-db`.Year (id, value) VALUES (63, 2012)
+[2023-03-27 23:27:17] 1 row affected in 7 ms
+test-db> INSERT INTO `test-db`.Year (id, value) VALUES (64, 2013)
+[2023-03-27 23:27:17] 1 row affected in 7 ms
+test-db> INSERT INTO `test-db`.Year (id, value) VALUES (65, 2014)
+[2023-03-27 23:27:17] 1 row affected in 13 ms
+test-db> INSERT INTO `test-db`.Year (id, value) VALUES (66, 2015)
+[2023-03-27 23:27:17] 1 row affected in 10 ms
+test-db> INSERT INTO `test-db`.Year (id, value) VALUES (67, 2016)
+[2023-03-27 23:27:17] 1 row affected in 7 ms
+test-db> INSERT INTO `test-db`.Year (id, value) VALUES (68, 2017)
+[2023-03-27 23:27:17] 1 row affected in 7 ms
+test-db> INSERT INTO `test-db`.Year (id, value) VALUES (69, 2018)
+[2023-03-27 23:27:17] 1 row affected in 11 ms
+test-db> INSERT INTO `test-db`.Year (id, value) VALUES (70, 2019)
+[2023-03-27 23:27:17] 1 row affected in 8 ms
+test-db> INSERT INTO `test-db`.Year (id, value) VALUES (71, 2020)
+[2023-03-27 23:27:17] 1 row affected in 8 ms
+test-db> INSERT INTO `test-db`.Year (id, value) VALUES (72, 2021)
+[2023-03-27 23:27:17] 1 row affected in 7 ms

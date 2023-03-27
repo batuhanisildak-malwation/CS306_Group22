@@ -1,0 +1,421 @@
+[2023-03-27 23:19:08] Connected
+test-db> use `test-db`
+[2023-03-27 23:19:08] completed in 4 ms
+test-db> create table Country (
+             id int auto_increment primary key,
+             continentId int not null,
+             name varchar(255) not null,
+             isoCode varchar(255) null,
+             constraint Country_ibfk_1 foreign key (continentId) references Continent (id)
+         )
+[2023-03-27 23:19:08] completed in 36 ms
+test-db> create index continentId on Country (continentId)
+[2023-03-27 23:19:08] completed in 19 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (1, 1, 'Afghanistan', 'AFG')
+[2023-03-27 23:19:20] 1 row affected in 12 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (2, 2, 'Albania', 'ALB')
+[2023-03-27 23:19:20] 1 row affected in 11 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (3, 5, 'Algeria', 'DZA')
+[2023-03-27 23:19:20] 1 row affected in 6 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (4, 6, 'American Samoa', 'ASM')
+[2023-03-27 23:19:20] 1 row affected in 10 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (5, 2, 'Andorra', 'AND')
+[2023-03-27 23:19:20] 1 row affected in 7 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (6, 5, 'Angola', 'AGO')
+[2023-03-27 23:19:20] 1 row affected in 9 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (7, 4, 'Antigua and Barbuda', 'ATG')
+[2023-03-27 23:19:20] 1 row affected in 13 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (8, 3, 'Argentina', 'ARG')
+[2023-03-27 23:19:20] 1 row affected in 13 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (9, 1, 'Armenia', 'ARM')
+[2023-03-27 23:19:20] 1 row affected in 6 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (10, 6, 'Australia', 'AUS')
+[2023-03-27 23:19:20] 1 row affected in 12 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (11, 2, 'Austria', 'AUT')
+[2023-03-27 23:19:20] 1 row affected in 9 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (12, 1, 'Azerbaijan', 'AZE')
+[2023-03-27 23:19:20] 1 row affected in 11 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (13, 1, 'Bahamas', 'BHS')
+[2023-03-27 23:19:20] 1 row affected in 9 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (14, 1, 'Bahrain', 'BHR')
+[2023-03-27 23:19:20] 1 row affected in 8 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (15, 1, 'Bangladesh', 'BGD')
+[2023-03-27 23:19:20] 1 row affected in 9 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (16, 4, 'Barbados', 'BRB')
+[2023-03-27 23:19:20] 1 row affected in 7 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (17, 2, 'Belarus', 'BLR')
+[2023-03-27 23:19:20] 1 row affected in 8 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (18, 2, 'Belgium', 'BEL')
+[2023-03-27 23:19:20] 1 row affected in 10 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (19, 4, 'Belize', 'BLZ')
+[2023-03-27 23:19:20] 1 row affected in 6 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (20, 5, 'Benin', 'BEN')
+[2023-03-27 23:19:20] 1 row affected in 9 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (21, 4, 'Bermuda', 'BMU')
+[2023-03-27 23:19:20] 1 row affected in 7 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (22, 1, 'Bhutan', 'BTN')
+[2023-03-27 23:19:20] 1 row affected in 12 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (23, 3, 'Bolivia', 'BOL')
+[2023-03-27 23:19:20] 1 row affected in 6 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (24, 2, 'Bosnia and Herzegovina', 'BIH')
+[2023-03-27 23:19:20] 1 row affected in 10 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (25, 5, 'Botswana', 'BWA')
+[2023-03-27 23:19:20] 1 row affected in 7 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (26, 3, 'Brazil', 'BRA')
+[2023-03-27 23:19:20] 1 row affected in 8 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (27, 5, 'Brunei', 'BRN')
+[2023-03-27 23:19:20] 1 row affected in 6 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (28, 2, 'Bulgaria', 'BGR')
+[2023-03-27 23:19:21] 1 row affected in 7 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (29, 5, 'Burkina Faso', 'BFA')
+[2023-03-27 23:19:21] 1 row affected in 10 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (30, 5, 'Burundi', 'BDI')
+[2023-03-27 23:19:21] 1 row affected in 7 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (31, 1, 'Cambodia', 'KHM')
+[2023-03-27 23:19:21] 1 row affected in 6 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (32, 5, 'Cameroon', 'CMR')
+[2023-03-27 23:19:21] 1 row affected in 8 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (33, 4, 'Canada', 'CAN')
+[2023-03-27 23:19:21] 1 row affected in 9 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (34, 5, 'Cape Verde', 'CPV')
+[2023-03-27 23:19:21] 1 row affected in 26 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (35, 5, 'Central African Republic', 'CAF')
+[2023-03-27 23:19:21] 1 row affected in 7 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (36, 5, 'Chad', 'TCD')
+[2023-03-27 23:19:21] 1 row affected in 8 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (37, 3, 'Chile', 'CHL')
+[2023-03-27 23:19:21] 1 row affected in 8 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (38, 1, 'China', 'CHN')
+[2023-03-27 23:19:21] 1 row affected in 10 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (39, 3, 'Colombia', 'COL')
+[2023-03-27 23:19:21] 1 row affected in 8 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (40, 5, 'Comoros', 'COM')
+[2023-03-27 23:19:21] 1 row affected in 10 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (41, 5, 'Congo', 'COG')
+[2023-03-27 23:19:21] 1 row affected in 11 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (42, 6, 'Cook Islands', 'COK')
+[2023-03-27 23:19:21] 1 row affected in 9 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (43, 4, 'Costa Rica', 'CRI')
+[2023-03-27 23:19:21] 1 row affected in 7 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (44, 5, 'Cote d\'Ivoire', 'CIV')
+[2023-03-27 23:19:21] 1 row affected in 11 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (45, 2, 'Croatia', 'HRV')
+[2023-03-27 23:19:21] 1 row affected in 9 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (46, 4, 'Cuba', 'CUB')
+[2023-03-27 23:19:21] 1 row affected in 12 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (47, 2, 'Cyprus', 'CYP')
+[2023-03-27 23:19:21] 1 row affected in 9 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (48, 2, 'Czechia', 'CZE')
+[2023-03-27 23:19:21] 1 row affected in 9 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (49, 5, 'Democratic Republic of Congo', 'COD')
+[2023-03-27 23:19:21] 1 row affected in 6 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (50, 2, 'Denmark', 'DNK')
+[2023-03-27 23:19:21] 1 row affected in 6 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (51, 5, 'Djibouti', 'DJI')
+[2023-03-27 23:19:21] 1 row affected in 9 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (52, 4, 'Dominica', 'DMA')
+[2023-03-27 23:19:21] 1 row affected in 9 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (53, 4, 'Dominican Republic', 'DOM')
+[2023-03-27 23:19:21] 1 row affected in 13 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (54, 3, 'Ecuador', 'ECU')
+[2023-03-27 23:19:21] 1 row affected in 13 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (55, 5, 'Egypt', 'EGY')
+[2023-03-27 23:19:21] 1 row affected in 6 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (56, 4, 'El Salvador', 'SLV')
+[2023-03-27 23:19:21] 1 row affected in 10 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (57, 5, 'Equatorial Guinea', 'GNQ')
+[2023-03-27 23:19:21] 1 row affected in 8 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (58, 5, 'Eritrea', 'ERI')
+[2023-03-27 23:19:21] 1 row affected in 11 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (59, 2, 'Estonia', 'EST')
+[2023-03-27 23:19:21] 1 row affected in 9 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (60, 5, 'Eswatini', 'SWZ')
+[2023-03-27 23:19:21] 1 row affected in 9 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (61, 5, 'Ethiopia', 'ETH')
+[2023-03-27 23:19:21] 1 row affected in 6 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (62, 6, 'Fiji', 'FJI')
+[2023-03-27 23:19:21] 1 row affected in 10 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (63, 2, 'Finland', 'FIN')
+[2023-03-27 23:19:21] 1 row affected in 13 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (64, 2, 'France', 'FRA')
+[2023-03-27 23:19:21] 1 row affected in 8 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (65, 5, 'Gabon', 'GAB')
+[2023-03-27 23:19:21] 1 row affected in 8 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (66, 5, 'Gambia', 'GMB')
+[2023-03-27 23:19:21] 1 row affected in 7 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (67, 1, 'Georgia', 'GEO')
+[2023-03-27 23:19:22] 1 row affected in 8 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (68, 2, 'Germany', 'DEU')
+[2023-03-27 23:19:22] 1 row affected in 7 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (69, 5, 'Ghana', 'GHA')
+[2023-03-27 23:19:22] 1 row affected in 7 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (70, 2, 'Greece', 'GRC')
+[2023-03-27 23:19:22] 1 row affected in 8 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (71, 2, 'Greenland', 'GRL')
+[2023-03-27 23:19:22] 1 row affected in 11 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (72, 3, 'Grenada', 'GRD')
+[2023-03-27 23:19:22] 1 row affected in 13 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (73, 3, 'Guam', 'GUM')
+[2023-03-27 23:19:22] 1 row affected in 14 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (74, 3, 'Guatemala', 'GTM')
+[2023-03-27 23:19:22] 1 row affected in 10 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (75, 5, 'Guinea', 'GIN')
+[2023-03-27 23:19:22] 1 row affected in 12 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (76, 5, 'Guinea-Bissau', 'GNB')
+[2023-03-27 23:19:22] 1 row affected in 9 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (77, 3, 'Guyana', 'GUY')
+[2023-03-27 23:19:22] 1 row affected in 21 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (78, 4, 'Haiti', 'HTI')
+[2023-03-27 23:19:22] 1 row affected in 8 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (79, 4, 'Honduras', 'HND')
+[2023-03-27 23:19:22] 1 row affected in 8 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (80, 2, 'Hungary', 'HUN')
+[2023-03-27 23:19:22] 1 row affected in 10 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (81, 2, 'Iceland', 'ISL')
+[2023-03-27 23:19:22] 1 row affected in 8 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (82, 1, 'India', 'IND')
+[2023-03-27 23:19:22] 1 row affected in 11 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (83, 1, 'Indonesia', 'IDN')
+[2023-03-27 23:19:22] 1 row affected in 8 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (84, 1, 'Iran', 'IRN')
+[2023-03-27 23:19:22] 1 row affected in 13 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (85, 1, 'Iraq', 'IRQ')
+[2023-03-27 23:19:22] 1 row affected in 12 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (86, 2, 'Ireland', 'IRL')
+[2023-03-27 23:19:22] 1 row affected in 9 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (87, 1, 'Israel', 'ISR')
+[2023-03-27 23:19:22] 1 row affected in 11 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (88, 2, 'Italy', 'ITA')
+[2023-03-27 23:19:22] 1 row affected in 9 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (89, 5, 'Jamaica', 'JAM')
+[2023-03-27 23:19:22] 1 row affected in 8 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (90, 1, 'Japan', 'JPN')
+[2023-03-27 23:19:22] 1 row affected in 8 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (91, 1, 'Jordan', 'JOR')
+[2023-03-27 23:19:22] 1 row affected in 9 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (92, 1, 'Kazakhstan', 'KAZ')
+[2023-03-27 23:19:22] 1 row affected in 10 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (93, 5, 'Kenya', 'KEN')
+[2023-03-27 23:19:22] 1 row affected in 7 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (94, 5, 'Kiribati', 'KIR')
+[2023-03-27 23:19:22] 1 row affected in 10 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (95, 1, 'Kuwait', 'KWT')
+[2023-03-27 23:19:22] 1 row affected in 12 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (96, 1, 'Kyrgyzstan', 'KGZ')
+[2023-03-27 23:19:22] 1 row affected in 11 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (97, 1, 'Laos', 'LAO')
+[2023-03-27 23:19:22] 1 row affected in 11 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (98, 2, 'Latvia', 'LVA')
+[2023-03-27 23:19:22] 1 row affected in 11 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (99, 1, 'Lebanon', 'LBN')
+[2023-03-27 23:19:22] 1 row affected in 9 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (100, 5, 'Lesotho', 'LSO')
+[2023-03-27 23:19:22] 1 row affected in 8 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (101, 5, 'Liberia', 'LBR')
+[2023-03-27 23:19:22] 1 row affected in 11 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (102, 5, 'Libya', 'LBY')
+[2023-03-27 23:19:22] 1 row affected in 12 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (103, 2, 'Lithuania', 'LTU')
+[2023-03-27 23:19:22] 1 row affected in 12 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (104, 2, 'Luxembourg', 'LUX')
+[2023-03-27 23:19:22] 1 row affected in 11 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (105, 5, 'Madagascar', 'MDG')
+[2023-03-27 23:19:23] 1 row affected in 16 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (106, 6, 'Malawi', 'MWI')
+[2023-03-27 23:19:23] 1 row affected in 10 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (107, 1, 'Malaysia', 'MYS')
+[2023-03-27 23:19:23] 1 row affected in 8 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (108, 6, 'Maldives', 'MDV')
+[2023-03-27 23:19:23] 1 row affected in 11 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (109, 5, 'Mali', 'MLI')
+[2023-03-27 23:19:23] 1 row affected in 12 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (110, 2, 'Malta', 'MLT')
+[2023-03-27 23:19:23] 1 row affected in 9 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (111, 6, 'Marshall Islands', 'MHL')
+[2023-03-27 23:19:23] 1 row affected in 10 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (112, 6, 'Mauritania', 'MRT')
+[2023-03-27 23:19:23] 1 row affected in 8 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (113, 6, 'Mauritius', 'MUS')
+[2023-03-27 23:19:23] 1 row affected in 10 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (114, 4, 'Mexico', 'MEX')
+[2023-03-27 23:19:23] 1 row affected in 9 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (115, 6, 'Micronesia ', 'FSM')
+[2023-03-27 23:19:23] 1 row affected in 11 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (116, 2, 'Moldova', 'MDA')
+[2023-03-27 23:19:23] 1 row affected in 8 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (117, 2, 'Monaco', 'MCO')
+[2023-03-27 23:19:23] 1 row affected in 10 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (118, 1, 'Mongolia', 'MNG')
+[2023-03-27 23:19:23] 1 row affected in 8 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (119, 2, 'Montenegro', 'MNE')
+[2023-03-27 23:19:23] 1 row affected in 7 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (120, 1, 'Morocco', 'MAR')
+[2023-03-27 23:19:23] 1 row affected in 8 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (121, 5, 'Mozambique', 'MOZ')
+[2023-03-27 23:19:23] 1 row affected in 7 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (122, 1, 'Myanmar', 'MMR')
+[2023-03-27 23:19:23] 1 row affected in 9 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (123, 5, 'Namibia', 'NAM')
+[2023-03-27 23:19:23] 1 row affected in 12 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (124, 6, 'Nauru', 'NRU')
+[2023-03-27 23:19:23] 1 row affected in 13 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (125, 1, 'Nepal', 'NPL')
+[2023-03-27 23:19:23] 1 row affected in 10 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (126, 2, 'Netherlands', 'NLD')
+[2023-03-27 23:19:23] 1 row affected in 8 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (127, 6, 'New Zealand', 'NZL')
+[2023-03-27 23:19:23] 1 row affected in 8 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (128, 5, 'Nicaragua', 'NIC')
+[2023-03-27 23:19:23] 1 row affected in 9 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (129, 5, 'Niger', 'NER')
+[2023-03-27 23:19:23] 1 row affected in 9 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (130, 5, 'Nigeria', 'NGA')
+[2023-03-27 23:19:23] 1 row affected in 10 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (131, 6, 'Niue', 'NIU')
+[2023-03-27 23:19:23] 1 row affected in 10 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (132, 1, 'North Korea', 'PRK')
+[2023-03-27 23:19:23] 1 row affected in 9 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (133, 2, 'North Macedonia', 'MKD')
+[2023-03-27 23:19:23] 1 row affected in 11 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (134, 6, 'Northern Mariana Islands', 'MNP')
+[2023-03-27 23:19:23] 1 row affected in 9 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (135, 2, 'Norway', 'NOR')
+[2023-03-27 23:19:23] 1 row affected in 8 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (136, 1, 'Oman', 'OMN')
+[2023-03-27 23:19:23] 1 row affected in 7 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (137, 1, 'Pakistan', 'PAK')
+[2023-03-27 23:19:23] 1 row affected in 8 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (138, 6, 'Palau', 'PLW')
+[2023-03-27 23:19:23] 1 row affected in 11 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (139, 1, 'Palestine', 'PSE')
+[2023-03-27 23:19:23] 1 row affected in 9 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (140, 4, 'Panama', 'PAN')
+[2023-03-27 23:19:23] 1 row affected in 8 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (141, 6, 'Papua New Guinea', 'PNG')
+[2023-03-27 23:19:23] 1 row affected in 12 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (142, 3, 'Paraguay', 'PRY')
+[2023-03-27 23:19:24] 1 row affected in 9 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (143, 3, 'Peru', 'PER')
+[2023-03-27 23:19:24] 1 row affected in 7 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (144, 1, 'Philippines', 'PHL')
+[2023-03-27 23:19:24] 1 row affected in 7 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (145, 2, 'Poland', 'POL')
+[2023-03-27 23:19:24] 1 row affected in 9 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (146, 2, 'Portugal', 'PRT')
+[2023-03-27 23:19:24] 1 row affected in 9 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (147, 4, 'Puerto Rico', 'PRI')
+[2023-03-27 23:19:24] 1 row affected in 7 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (148, 1, 'Qatar', 'QAT')
+[2023-03-27 23:19:24] 1 row affected in 5 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (149, 2, 'Romania', 'ROU')
+[2023-03-27 23:19:24] 1 row affected in 7 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (150, 2, 'Russia', 'RUS')
+[2023-03-27 23:19:24] 1 row affected in 7 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (151, 5, 'Rwanda', 'RWA')
+[2023-03-27 23:19:24] 1 row affected in 12 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (152, 4, 'Saint Kitts and Nevis', 'KNA')
+[2023-03-27 23:19:24] 1 row affected in 9 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (153, 4, 'Saint Lucia', 'LCA')
+[2023-03-27 23:19:24] 1 row affected in 7 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (154, 4, 'Saint Vincent and the Grenadines', 'VCT')
+[2023-03-27 23:19:24] 1 row affected in 8 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (155, 6, 'Samoa', 'WSM')
+[2023-03-27 23:19:24] 1 row affected in 7 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (156, 2, 'San Marino', 'SMR')
+[2023-03-27 23:19:24] 1 row affected in 7 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (157, 4, 'Sao Tome and Principe', 'STP')
+[2023-03-27 23:19:24] 1 row affected in 6 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (158, 1, 'Saudi Arabia', 'SAU')
+[2023-03-27 23:19:24] 1 row affected in 7 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (159, 5, 'Senegal', 'SEN')
+[2023-03-27 23:19:24] 1 row affected in 8 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (160, 2, 'Serbia', 'SRB')
+[2023-03-27 23:19:24] 1 row affected in 8 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (161, 1, 'Seychelles', 'SYC')
+[2023-03-27 23:19:24] 1 row affected in 7 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (162, 1, 'Sierra Leone', 'SLE')
+[2023-03-27 23:19:24] 1 row affected in 8 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (163, 1, 'Singapore', 'SGP')
+[2023-03-27 23:19:24] 1 row affected in 15 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (164, 2, 'Slovakia', 'SVK')
+[2023-03-27 23:19:24] 1 row affected in 17 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (165, 2, 'Slovenia', 'SVN')
+[2023-03-27 23:19:24] 1 row affected in 16 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (166, 6, 'Solomon Islands', 'SLB')
+[2023-03-27 23:19:24] 1 row affected in 7 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (167, 5, 'Somalia', 'SOM')
+[2023-03-27 23:19:24] 1 row affected in 8 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (168, 5, 'South Africa', 'ZAF')
+[2023-03-27 23:19:24] 1 row affected in 6 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (169, 1, 'South Korea', 'KOR')
+[2023-03-27 23:19:24] 1 row affected in 8 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (170, 5, 'South Sudan', 'SSD')
+[2023-03-27 23:19:24] 1 row affected in 7 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (171, 2, 'Spain', 'ESP')
+[2023-03-27 23:19:24] 1 row affected in 9 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (172, 1, 'Sri Lanka', 'LKA')
+[2023-03-27 23:19:24] 1 row affected in 7 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (173, 1, 'Sudan', 'SDN')
+[2023-03-27 23:19:24] 1 row affected in 12 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (174, 5, 'Suriname', 'SUR')
+[2023-03-27 23:19:24] 1 row affected in 5 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (175, 2, 'Sweden', 'SWE')
+[2023-03-27 23:19:24] 1 row affected in 8 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (176, 2, 'Switzerland', 'CHE')
+[2023-03-27 23:19:24] 1 row affected in 12 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (177, 5, 'Syria', 'SYR')
+[2023-03-27 23:19:24] 1 row affected in 6 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (178, 1, 'Taiwan', 'TWN')
+[2023-03-27 23:19:24] 1 row affected in 12 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (179, 1, 'Tajikistan', 'TJK')
+[2023-03-27 23:19:24] 1 row affected in 8 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (180, 5, 'Tanzania', 'TZA')
+[2023-03-27 23:19:24] 1 row affected in 6 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (181, 1, 'Thailand', 'THA')
+[2023-03-27 23:19:24] 1 row affected in 8 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (182, 5, 'Timor', 'TLS')
+[2023-03-27 23:19:24] 1 row affected in 8 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (183, 5, 'Togo', 'TGO')
+[2023-03-27 23:19:25] 1 row affected in 6 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (184, 6, 'Tokelau', 'TKL')
+[2023-03-27 23:19:25] 1 row affected in 9 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (185, 5, 'Tonga', 'TON')
+[2023-03-27 23:19:25] 1 row affected in 7 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (186, 4, 'Trinidad and Tobago', 'TTO')
+[2023-03-27 23:19:25] 1 row affected in 8 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (187, 5, 'Tunisia', 'TUN')
+[2023-03-27 23:19:25] 1 row affected in 7 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (188, 2, 'Turkey', 'TUR')
+[2023-03-27 23:19:25] 1 row affected in 7 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (189, 1, 'Turkmenistan', 'TKM')
+[2023-03-27 23:19:25] 1 row affected in 10 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (190, 6, 'Tuvalu', 'TUV')
+[2023-03-27 23:19:25] 1 row affected in 7 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (191, 5, 'Uganda', 'UGA')
+[2023-03-27 23:19:25] 1 row affected in 8 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (192, 2, 'Ukraine', 'UKR')
+[2023-03-27 23:19:25] 1 row affected in 37 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (193, 1, 'United Arab Emirates', 'ARE')
+[2023-03-27 23:19:25] 1 row affected in 71 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (194, 2, 'United Kingdom', 'GBR')
+[2023-03-27 23:19:25] 1 row affected in 15 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (195, 4, 'United States', 'USA')
+[2023-03-27 23:19:25] 1 row affected in 13 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (196, 6, 'United States Virgin Islands', 'VIR')
+[2023-03-27 23:19:25] 1 row affected in 7 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (197, 3, 'Uruguay', 'URY')
+[2023-03-27 23:19:25] 1 row affected in 5 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (198, 1, 'Uzbekistan', 'UZB')
+[2023-03-27 23:19:25] 1 row affected in 5 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (199, 6, 'Vanuatu', 'VUT')
+[2023-03-27 23:19:25] 1 row affected in 9 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (200, 3, 'Venezuela', 'VEN')
+[2023-03-27 23:19:25] 1 row affected in 7 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (201, 1, 'Vietnam', 'VNM')
+[2023-03-27 23:19:25] 1 row affected in 6 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (202, 1, 'Yemen', 'YEM')
+[2023-03-27 23:19:25] 1 row affected in 7 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (203, 5, 'Zambia', 'ZMB')
+[2023-03-27 23:19:25] 1 row affected in 8 ms
+test-db> INSERT INTO `test-db`.Country (id, continentId, name, isoCode) VALUES (204, 5, 'Zimbabwe', 'ZWE')
+[2023-03-27 23:19:25] 1 row affected in 7 ms

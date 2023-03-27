@@ -27,6 +27,6 @@ Project Step 1
 ### 25.03.2023
 - We've changed all csv files ';' to ',' because we've used DataGrip console to manage our MySQL server. It requires comma.
 - All SQL commands are in sql-commands/
-- All logs are in logs/
+- All mysql insert/create logs are in logs/
 - All Project Step reports are in reports/
 - All CSV files are in csv/
