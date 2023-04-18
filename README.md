@@ -15,6 +15,9 @@ causes and pollution while classifying population into different generations. In
 renewable energy sources is also stored, which can give a deeper insight on how these energy sources
 can play a role in countries' mortality rates & causes. 
 
+## ER Diagram
+![ER](./assets/er-diagram.jpeg)
+
 ## Repository Description
 - We've parsed the datas that we've found, and uploaded them at datacsv/ folder.
 - Also report is available in this repository.
