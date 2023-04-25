@@ -1,0 +1,7 @@
+[2023-04-25 23:16:20] Connected
+test-db> use `test-db`
+[2023-04-25 23:16:20] completed in 6 ms
+test-db> SELECT t.*
+         FROM `test-db`.GetCountriesWithAvgSolarEnergyAmountMoreThanTenByYear t
+         LIMIT 501
+[2023-04-25 23:16:20] 1 row retrieved starting from 1 in 84 ms (execution: 22 ms, fetching: 62 ms)

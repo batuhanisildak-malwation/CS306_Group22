@@ -1,0 +1,1 @@
+ALTER TABLE Year ADD CONSTRAINT check_available_year CHECK (value >= 1900 AND value <= 2100);

@@ -1,0 +1,4 @@
+test-db> INSERT INTO Year (value)
+         VALUES (2101)
+[2023-04-25 23:52:50] [HY000][3819] Check constraint 'check_available_year' is violated.
+[2023-04-25 23:52:50] [HY000][3819] Check constraint 'check_available_year' is violated.

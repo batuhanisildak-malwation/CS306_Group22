@@ -1,0 +1,1 @@
+ALTER TABLE Year ADD CONSTRAINT check_year_unique UNIQUE (value);

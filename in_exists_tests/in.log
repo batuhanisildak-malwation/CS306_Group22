@@ -1,0 +1,9 @@
+[2023-04-25 23:34:13] Connected
+test-db> use `test-db`
+[2023-04-25 23:34:13] completed in 5 ms
+test-db> SELECT COUNT(*) as CountryCount FROM Country C
+         WHERE C.Id IN (SELECT SubQ.countryId FROM (SELECT AVG(amount) AS AverageAmount, countryId FROM CountryRenewableEnergySource CRES
+         WHERE CRES.renewableEnergySourceId = 2
+         GROUP BY CRES.countryId) AS SubQ WHERE SubQ.AverageAmount > 10
+         )
+[2023-04-25 23:34:13] 1 row retrieved starting from 1 in 65 ms (execution: 13 ms, fetching: 52 ms)
