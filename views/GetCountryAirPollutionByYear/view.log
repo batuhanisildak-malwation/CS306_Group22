@@ -1,0 +1,4 @@
+[2023-04-18 23:43:17] completed in 8 ms
+test-db> SELECT t.*
+         FROM `test-db`.GetCountryAirPollutionByYear t
+[2023-04-18 23:43:17] 2,316 rows retrieved starting from 1 in 50 ms (execution: 15 ms, fetching: 35 ms)

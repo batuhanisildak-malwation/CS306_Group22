@@ -1,0 +1,5 @@
+[2023-04-18 23:46:16] completed in 3 ms
+test-db> SELECT t.*
+         FROM `test-db`.GetCountryPlasticPollutionByYear t
+         LIMIT 501
+[2023-04-18 23:46:16] 158 rows retrieved starting from 1 in 25 ms (execution: 13 ms, fetching: 12 ms)

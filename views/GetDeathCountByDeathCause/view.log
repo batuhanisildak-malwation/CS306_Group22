@@ -1,0 +1,5 @@
+[2023-04-19 00:04:58] completed in 2 ms
+test-db> SELECT t.*
+         FROM `test-db`.GetDeathCountByDeathCause t
+         LIMIT 501
+[2023-04-19 00:04:58] 28 rows retrieved starting from 1 in 48 ms (execution: 16 ms, fetching: 32 ms)

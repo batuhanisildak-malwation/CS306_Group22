@@ -1,0 +1,5 @@
+[2023-04-19 00:13:35] completed in 9 ms
+test-db> SELECT t.*
+         FROM `test-db`.GetMinDeathCountByDeathCause t
+         LIMIT 501
+[2023-04-19 00:13:35] 1 row retrieved starting from 1 in 32 ms (execution: 17 ms, fetching: 15 ms)

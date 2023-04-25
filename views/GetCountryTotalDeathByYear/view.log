@@ -1,0 +1,5 @@
+[2023-04-18 23:55:14] completed in 9 ms
+test-db> SELECT t.*
+         FROM `test-db`.GetCountryTotalDeathByYear t
+         LIMIT 501
+[2023-04-18 23:55:14] 203 rows retrieved starting from 1 in 60 ms (execution: 14 ms, fetching: 46 ms)

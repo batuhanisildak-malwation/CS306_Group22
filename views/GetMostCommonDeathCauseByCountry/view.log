@@ -1,0 +1,5 @@
+[2023-04-19 01:02:45] completed in 6 ms
+test-db> SELECT t.*
+         FROM `test-db`.GetMostCommonDeathCauseByCountry t
+         LIMIT 501
+[2023-04-19 01:02:47] 204 rows retrieved starting from 1 in 1 s 670 ms (execution: 1 s 663 ms, fetching: 7 ms)
