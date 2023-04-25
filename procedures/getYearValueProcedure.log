@@ -1,0 +1,14 @@
+test-db> CREATE PROCEDURE getYearValue
+             (IN yearId INT)
+         BEGIN
+             SELECT value
+             FROM Year
+             WHERE Id = yearId;
+         END
+[2023-04-26 00:32:15] completed in 27 ms
+test-db> CALL getYearValue(1)
+[2023-04-26 00:32:26] 1 row retrieved starting from 1 in 62 ms (execution: 13 ms, fetching: 49 ms)
+- 1950
+test-db> CALL getYearValue(2)
+[2023-04-26 00:32:31] 1 row retrieved starting from 1 in 62 ms (execution: 13 ms, fetching: 49 ms)
+- 1951

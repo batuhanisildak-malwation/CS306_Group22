@@ -1,0 +1,5 @@
+test-db> INSERT INTO Year (value)
+         VALUES (2101)
+[2023-04-26 00:22:42] 1 row affected in 19 ms
+
+"Check 'check_is_year_trigger_log.png' for the log"

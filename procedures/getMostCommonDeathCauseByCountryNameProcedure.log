@@ -1,0 +1,37 @@
+test-db> CREATE PROCEDURE GetMostCommonDeathCauseByCountryNameProcedure
+             (IN countryName VARCHAR(255))
+         BEGIN
+         SELECT SQ.Country AS 'Country',
+                SQ.Cause AS 'Cause',
+                MAX(SQ.Count) AS 'Max Count'
+         FROM (
+             SELECT C.name AS 'Country',
+                    DC.name AS 'Cause',
+                    SUM(D.count) AS 'Count'
+             FROM Death D
+             INNER JOIN DeathCause DC ON D.deathCauseId = DC.id
+             INNER JOIN Country C ON D.countryId = C.id
+             GROUP BY C.name, DC.name
+         ) AS SQ
+         GROUP BY SQ.Country, SQ.Cause
+         HAVING MAX(SQ.Count) = (
+             SELECT MAX(SQ2.Count)
+             FROM (
+                 SELECT C.name AS 'Country',
+                        DC.name AS 'Cause',
+                        SUM(D.count) AS 'Count'
+                 FROM Death D
+                 INNER JOIN DeathCause DC ON D.deathCauseId = DC.id
+                 INNER JOIN Country C ON D.countryId = C.id
+                 GROUP BY C.name, DC.name
+             ) AS SQ2
+             WHERE SQ2.Country = SQ.Country
+         ) AND Country = countryName;
+         END
+[2023-04-26 00:37:06] completed in 30 ms
+test-db> CALL GetMostCommonDeathCauseByCountryNameProcedure("Uganda")
+[2023-04-26 00:38:17] 1 row retrieved starting from 1 in 1 s 733 ms (execution: 1 s 713 ms, fetching: 20 ms)
+- Uganda | Unsafe sex | 57490
+test-db> CALL GetMostCommonDeathCauseByCountryNameProcedure("Turkey")
+[2023-04-26 00:38:21] 1 row retrieved starting from 1 in 1 s 706 ms (execution: 1 s 699 ms, fetching: 20 ms)
+- Turkey | High systolic blood pressure | 71532

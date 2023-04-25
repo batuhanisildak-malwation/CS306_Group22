@@ -1,5 +1,4 @@
-delimiter //
-CREATE TRIGGER year_check BEFORE INSERT ON Year
+CREATE TRIGGER year_check_insert BEFORE INSERT ON Year
 FOR EACH ROW
 BEGIN
   IF NEW.value < 1900 THEN
@@ -7,11 +6,9 @@ BEGIN
   ELSEIF NEW.value > 2100 THEN
     SET NEW.value = 2100;
   END IF;
-END;//
-delimiter ;
+END;
 
-delimiter //
-CREATE TRIGGER year_check BEFORE UPDATE ON Year
+CREATE TRIGGER year_check_update BEFORE UPDATE ON Year
 FOR EACH ROW
 BEGIN
   IF NEW.value < 1900 THEN
@@ -19,5 +16,4 @@ BEGIN
   ELSEIF NEW.value > 2100 THEN
     SET NEW.value = 2100;
   END IF;
-END;//
-delimiter ;
+END;/
