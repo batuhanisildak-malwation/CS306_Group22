@@ -1,0 +1,6 @@
+mysql.connector
+plotly.graph_objects
+pandas
+matplotlib.pyplot
+seaborn
+geopandas
